@@ -316,22 +316,22 @@
    }
    
    #balloon {
-       position: fixed;
-       left: 50%;
-       margin-left: -304px;
-       margin-top: -190px;
-       width: 609px;
-       height: 940px;
-       background: url('../img/balloon.png') no-repeat center top;
-       z-index: 100;
-   }
+    position: fixed;
+    left: 20%;
+    background: url('../img/balloon.png') no-repeat center top;
+    z-index: 100;
+    right: 20%;
+    bottom: 30%;
+    top: 1%;
+    background-size: contain;
+}
    
    header {
-       top: 110px;
+       top: 900px;
        position: relative;
        height: 255px;
        background: url('../img/ribbon.png') center no-repeat;
-       z-index: 100;
+       z-index: 0;
    }
    
    header #ribbon {
